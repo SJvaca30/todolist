@@ -6,8 +6,10 @@ export default class TodoForm {
     this.$input = document.createElement('input');
     this.$button = document.createElement('button');
 
-    this.$input.placeholder = 'Enter your to-do';
-    this.$button.textContent = 'Add';
+    this.$input.placeholder = 'Todo를 입력하세요.';
+    this.$button.textContent = '입력';
+
+    this.$todoForm.classList.add('todo-form'); 
 
     this.$button.addEventListener('click', this.handleAdd.bind(this));
 

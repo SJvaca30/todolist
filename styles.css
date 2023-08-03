@@ -1,0 +1,12 @@
+.todo-form {
+    display: flex;
+  }
+
+.todo-form input {
+    height: 17px;
+}
+
+.todo-form button {
+    height: 23px;
+    margin-left: 5px;
+}  
